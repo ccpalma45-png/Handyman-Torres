@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handyman Torres</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin: 0 0 10px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    section {
+      padding: 35px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .servicios {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .servicio {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    .contacto {
+      text-align: center;
+      background: #222;
+      color: white;
+      max-width: none;
+    }
+
+    .boton {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Handyman Torres</h1>
+    <p>Servicios para tu hogar</p>
+  </header>
+
+  <section>
+    <h2>Nuestros servicios</h2>
+
+    <div class="servicios">
+
+      <div class="servicio">
+        <h3>🎨 Pintura</h3>
+        <p>Pintura de casas y diferentes espacios del hogar.</p>
+      </div>
+
+      <div class="servicio">
+        <h3>🔨 Reparaciones</h3>
+        <p>Trabajos y reparaciones para mantener tu hogar en buen estado.</p>
+      </div>
+
+      <div class="servicio">
+        <h3>🏠 Mantenimiento</h3>
+        <p>Ayuda con diferentes trabajos de mantenimiento del hogar.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Necesitas ayuda con un trabajo en tu casa?</p>
+    <p>Comunícate con Handyman Torres.</p>
+
+    <a class="boton" href="#">Contactar</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Handyman Torres</p>
+  </footer>
+
+</body>
+</html>
